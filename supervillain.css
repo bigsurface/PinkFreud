@@ -1,0 +1,28 @@
+body{
+    background: linear-gradient(180deg, rgba(114, 5, 5, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0, 0, 0, 0.8), rgba(100,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0, 0, 0, 0.8), rgba(0,0,255,0) 70.71%);
+}
+
+.sunsetmap{
+    width: 200px;
+    height: 200px;
+    margin-left: 550px;
+    margin-top: 280px;
+    background: linear-gradient(17deg, rgba(138, 17, 17, 0.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(5, 63, 5, 0.8), rgba(100,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(5, 27, 75, 0.8), rgba(0,0,255,0) 70.71%);;
+    position: absolute;
+    text-align: center;
+}
+
+.sunsetclick{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    margin-left: 500px;
+    background: linear-gradient(17deg, rgba(46, 46, 0.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,46,0,.8), rgba(100,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(46, 0, 46, 0.8), rgba(0,0,255,0) 70.71%);;
+    position: absolute;
+}

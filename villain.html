@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+
+    <script type = "text/javascript">
+        function Redirect() {
+           window.location = "villain2.html";
+        }
+    </script>
+
+    <style>
+
+.canvas {
+    width: 1340px;
+    height: 560px;
+    background-image: url('img/villain.jpg');
+}
+
+.villain {
+    width: 500px;
+    height: 500px;
+    background-image: url('img/moon.jpg');
+    margin-left: 46px;
+    margin-top: 22px;
+    position: absolute;
+}
+
+.moon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: darkred;
+    margin-left: 100px;
+    margin-top: 100px;
+    position: absolute;
+}
+
+    .sunsetclick{
+    width: 0px;
+    height: 0px;
+    border-radius: 150px;
+    margin-left: 687px;
+    margin-top: 46px;
+    background: linear-gradient(17deg, rgba(200,199,100,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(240,255,100,.8), rgba(100,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(222,100,255,.8), rgba(0,0,255,0) 70.71%);;
+    position: absolute;
+
+}
+    </style>
+</head>
+<body>
+    <div class="canvas">
+        <div class="moon"></div>
+    <div class="villain"><br></div>
+    <div class="sunsetclick">
+        
+        <form>
+           <input type = "button" value = "Villain" onclick = "Redirect();" style="margin: auto 35%; color: purple;" />
+        </form>
+    </div>
+    </div>
+
+</body>
+</html>
