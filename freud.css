@@ -1,0 +1,91 @@
+body{
+    background: linear-gradient(17deg, rgba(82, 9, 167, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(221, 85, 187, 0.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(135,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
+.ego{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: linear-gradient(17deg, rgba(204, 14, 204, 0.8), rgba(255,0,0,0) 50.71%),
+            linear-gradient(127deg, rgba(209, 39, 144, 0.8), rgba(0,255,0,0) 50.71%),
+            linear-gradient(336deg, rgba(26, 15, 184, 0.8), rgba(0,0,255,0) 50.71%);
+    margin-left: 500px;
+    position: absolute;
+    text-align: center;
+    color: sienna;
+    font-size: xx-large;
+
+}
+
+.spectrumanalyzer{
+    width: 700px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url('imgbubble/spectrumanalysis.jpg');
+    margin-left: 500px;
+    margin-top: 350px;
+    position: absolute;
+    text-align: center;
+    color: sienna;
+    font-size: xx-large;
+}
+
+.egoideal{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url('imgbubble/egoideal.jpg');
+    margin-left: 500px;
+    margin-top: 400px;
+    position: absolute;
+    text-align: center;
+    color: rgb(8, 19, 7);
+    font-size: xx-large;
+
+}
+
+.egosmall{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url('imgbubble/egoloss.jpg');
+    margin-left: 800px;
+    margin-top: 400px; 
+    position: absolute;
+    text-align: center;
+    color: rgb(27, 9, 39);
+    font-size: xx-large;
+
+}
+
+.object{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url('imgbubble/object2.jpg');
+    margin-left: 1100px;
+    margin-top: 400px;
+    position: absolute;
+    text-align: center;
+    color: rgb(5, 26, 16);
+    font-size: xx-large;
+
+}
+
+.egoloss{
+    width: 500px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(17deg, rgba(41, 30, 41, 0.8), rgba(255,0,0,0) 10.71%),
+            linear-gradient(127deg, rgba(156, 43, 58, 0.8), rgba(0,255,0,.1) 100.00%),
+            linear-gradient(336deg, rgba(10, 25, 34, 0.8), rgba(98, 98, 128, .4) 90.71%);
+    margin-left: 600px;
+    margin-top: 350px;
+    position: absolute;
+    text-align: center;
+    color: rgb(5, 26, 16);
+    font-size: xx-large;
+
+}

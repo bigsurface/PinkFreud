@@ -1,0 +1,37 @@
+body{
+    background: linear-gradient(17deg, rgba(82, 9, 167, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(221, 85, 187, 0.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(135,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
+.ego{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: linear-gradient(17deg, rgba(204, 14, 204, 0.8), rgba(255,0,0,0) 50.71%),
+            linear-gradient(127deg, rgba(209, 39, 144, 0.8), rgba(0,255,0,0) 50.71%),
+            linear-gradient(336deg, rgba(26, 15, 184, 0.8), rgba(0,0,255,0) 50.71%);
+    margin-left: 500px;
+    position: absolute;
+    text-align: center;
+    color: sienna;
+    font-size: xx-large;
+
+}
+
+.sunsetmap{
+    width: 200px;
+    height: 200px;
+    margin-left: 600px;
+    background-color: limegreen;
+    position: absolute;
+}
+
+.sunsetclick{
+    width: 300px;
+    height: 300px;
+    margin-left: 800px;
+    background-color: rgb(78, 50, 205);
+    position: absolute;
+
+}

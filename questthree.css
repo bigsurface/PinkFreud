@@ -1,0 +1,21 @@
+body{
+    background: linear-gradient(17deg, rgba(187, 199, 27, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(13, 190, 87, 0.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(135,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
+.sunsetmap{
+    width: 200px;
+    height: 200px;
+    margin-left: 600px;
+    background-color: rgb(17, 165, 170);
+    position: absolute;
+}
+
+.sunsetclick{
+    width: 300px;
+    height: 300px;
+    margin-left: 800px;
+    background-color: rgb(192, 37, 158);
+    position: absolute;
+}
